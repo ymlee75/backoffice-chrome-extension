@@ -10,13 +10,13 @@ hoverZoomPlugins.push( {
 		hoverZoom.urlReplace(res, 
 			'img[src*="i.011st.com/t/"]',
 			/\/t\/\w+/,
-			'/t/300'
+			'/t/300_10'
 		);		
 
 		hoverZoom.urlReplace(res, 
 			'img[src*="i.011st.com/ex_t/"]',
 			/\/ex_t\/R\/\w+/,
-			'/ex_t/R/300x300'
+			'/ex_t/R/300x300_10'
 		);		
 		
 		//http://i.011st.com/ex_t/R/120x120/1/85/0/src/k/2/0/4/2/1/6/189204216_B_V3.gif
