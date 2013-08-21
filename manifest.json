@@ -25,11 +25,11 @@
    },
    "manifest_version": 2,
    "minimum_chrome_version": "18",
-   "name": "11st Product Infomation",
+   "name": "11st backoffice chrome extention - Product Infomation",
    "page_action": {
       "default_icon": "images/icon19.png",
       "default_popup": "html/popup.html",
-      "default_title": "11st Product Information"
+      "default_title": "11st backoffice chrome extention - Product Infomation"
    },
    "permissions": [ "tabs", "history", "notifications", "webRequest", "webRequestBlocking", "*://*/*" ],
    "version": "0.2",
