@@ -1,0 +1,37 @@
+{
+   "background": {
+      "page": "html/background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "js/jquery.min.js", "plugins/default.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   }, {
+      "js": [ "plugins/11st.js" ],
+      "matches": [ "*://*.11st.co.kr/*" ]
+   }, {
+      "all_frames": true,
+      "js": [ "js/hoverzoom.js" ],
+      "matches": [ "\u003Call_urls\u003E" ]
+   } ],
+   "content_security_policy": "script-src 'self' https://apis.google.com https://ssl.google-analytics.com; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "manifest_version": 2,
+   "minimum_chrome_version": "18",
+   "name": "11st Product Infomation",
+   "page_action": {
+      "default_icon": "images/icon19.png",
+      "default_popup": "html/popup.html",
+      "default_title": "11st Product Information"
+   },
+   "permissions": [ "tabs", "history", "notifications", "webRequest", "webRequestBlocking", "*://*/*" ],
+   "version": "0.2",
+   "web_accessible_resources": [ "images/loading.gif", "images/wm-gallery.png", "images/fb-close.png" ]
+}
