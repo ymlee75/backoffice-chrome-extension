@@ -32,6 +32,6 @@
       "default_title": "11st backoffice chrome extention - Product Infomation"
    },
    "permissions": [ "tabs", "history", "notifications", "webRequest", "webRequestBlocking", "*://*/*" ],
-   "version": "0.2",
+   "version": "0.5",
    "web_accessible_resources": [ "images/loading.gif", "images/wm-gallery.png", "images/fb-close.png" ]
 }
