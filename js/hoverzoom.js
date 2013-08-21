@@ -1,5 +1,6 @@
 ﻿// Copyright (c) 2012 Romain Vallet <romain.vallet@gmail.com>
 // Licensed under the MIT license, read license.txt
+//
 
 var hoverZoomPlugins = hoverZoomPlugins || [],
 	debug = false;
@@ -445,7 +446,7 @@ var hoverZoom = {
 								
 				prdNo = '';
 				try {
-					prdNo = imgDetails.url.match( /\/\d{8,10}_/ )[0].replace( '/', '').replace( '_', '');
+					prdNo = imgDetails.url.match( /\/\d{7,10}_/ )[0].replace( '/', '').replace( '_', '');
 				} catch (ex) {}
 				if ( prdNo !== '' ) {
 					hzCaption = $('<iframe style="border: none" height=320 width=320/>').appendTo(hz.hzImg).attr('src', 
