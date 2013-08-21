@@ -443,7 +443,8 @@ var hoverZoom = {
 				hz.hzImg.css('cursor', 'pointer');
 
 				initLinkRect(imgThumb || hz.currentLink);
-								
+
+                // Adding customize information for 11st
 				prdNo = '';
 				try {
 					prdNo = imgDetails.url.match( /\/\d{7,10}_/ )[0].replace( '/', '').replace( '_', '');
